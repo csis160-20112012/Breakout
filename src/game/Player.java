@@ -11,7 +11,7 @@ public class Player {
 	private int x;
 	private int y;
 	
-	//velocity of the player
+	//velocity of the player (when key is pressed)
 	private int vx;
 	private int vy;
 	
@@ -20,7 +20,7 @@ public class Player {
 	
 	//player dimensions
 	private int width = 10;
-	private int height = 60;
+	private int height = 100;
 	
 	
 	
@@ -67,6 +67,7 @@ public class Player {
 	
 	
 	
+	
 	public boolean contains(int x, int y) {
 		int offsetX = x - getX();
 		int offsetY = y - getY();
@@ -78,6 +79,7 @@ public class Player {
 			return false;
 		}
 	}
+	
 	
 	
 	

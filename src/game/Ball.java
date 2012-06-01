@@ -15,8 +15,8 @@ public class Ball {
 	private double ay;
 	
 	//dimensions of the ball
-	private int width = 7;
-	private int height = 7;
+	private int width = 8;
+	private int height = 8;
 	
 	
 	
